@@ -78,6 +78,11 @@ Now we're going to set up Dokku on our AWS EC2 server so we can push our changes
 `wget https://raw.githubusercontent.com/dokku/dokku/v0.6.5/bootstrap.sh`  
 `sudo DOKKU_TAG=v0.6.5 bash bootstrap.sh`
 
+	>If you get errors with the above steps, saying something along the lines of 'unable to resolve host'.<br/>
+	>For sample, if my machine name is: `ip-10-0-0-50`<br/>
+	>then add : `127.0.1.1 ip-10-0-0-50` to hosts file.<br/>
+	>`$ sudo nano /etc/hosts`
+
 3. Once Dokku is installed, access [dokku.aws.me](http://dokku.aws.me) on your browser.  
 ![browser](1.png "browser")
 
