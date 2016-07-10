@@ -75,8 +75,8 @@ Now we're going to set up Dokku on our AWS EC2 server so we can push our changes
 `ssh -i /path/to/file.pem ubuntu@dokku.aws.me`
 
 2. Install Dokku via `wget`  
-`wget https://raw.githubusercontent.com/progrium/dokku/v0.4.5/bootstrap.sh`  
-`sudo DOKKU_TAG=v0.4.5 bash`
+`wget https://raw.githubusercontent.com/dokku/dokku/v0.6.5/bootstrap.sh`  
+`sudo DOKKU_TAG=v0.6.5 bash bootstrap.sh`
 
 3. Once Dokku is installed, access [dokku.aws.me](http://dokku.aws.me) on your browser.  
 ![browser](1.png "browser")
